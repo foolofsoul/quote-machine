@@ -1,0 +1,139 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: linear-gradient( 155deg, #10C9AD, #257882 ) no-repeat;
+  /*#10B5C9*/
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+p {
+  text-align: center;
+}
+
+
+/****************   QUOTE   ****************/
+.wrapper {
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  width: 40%;
+}
+
+#quote-box {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 45px 50px;
+  border: 7px solid rgba(255, 255, 255, 1);
+}
+
+blockquote {
+  margin: 0 0 15px 20px;
+  font-family: "Abril Fatface", serif;
+  font-size: 2.75rem;
+  text-align: left;
+  line-height: 1.25;
+  width: 75%;
+}
+
+.left-mark {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  font-family: "Abril Fatface", serif;
+  font-size: 5rem;
+}
+
+cite {
+  flex-grow: 1;
+  font-family: "Alex Brush", serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: right;
+}
+
+#link-wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn {
+  margin-top: 15px;
+  border: 0;
+  padding: 10px 20px;
+  font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, .9);
+  color: #257882;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #fff;
+}
+
+a#tweet {
+  margin-top: 15px;
+}
+
+
+.fa-twitter {
+  color: rgba(255, 255, 255, .9);
+  font-size: 3rem;
+}
+
+.fa-twitter:hover {
+  color: #fff;
+}
